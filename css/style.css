@@ -1,3 +1,23 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
 body {
   background-color: #f06292;
+}
+
+.wrapper {
+  background-color: #3c424a;
+  color: #fff;
+  border-radius: 5px;
+  max-width: 800px;
+  min-height: 600px;
+  margin: 0 auto;
+  padding: 20px;
 }
